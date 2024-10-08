@@ -18,6 +18,9 @@
                 Todo
             </a>
         </div>
+        <nav class="header__nav">
+            <a class="header__nav-item" href="/categories">カテゴリ一覧</a>
+        </nav>
     </header>
 
     <main>

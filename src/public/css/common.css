@@ -1,9 +1,12 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #000;
 }
 
 .header__inner {
-    margin: 0 auto;
+    margin: 0 30px;
     padding: 20px 15px;
     max-width: 1280px;
 }
@@ -13,4 +16,15 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+}
+
+.header__nav {
+    margin-right: 30px;
+}
+
+.header__nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
